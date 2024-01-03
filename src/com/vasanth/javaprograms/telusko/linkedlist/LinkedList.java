@@ -46,7 +46,6 @@ public class LinkedList {
 		if (index == 0) {
 			insertAtStart(data);
 		} else {
-
 			Node n = head;
 			for (int i = 0; i < index - 1; i++) {
 				n = n.next;
